@@ -1,0 +1,82 @@
+body{
+    background-color: #000;
+}
+.container{
+    position: relative;
+
+}
+
+.hero-image{
+    background-image: url("images-documents/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.text-hero{
+
+    font-family: Arial,sans-serif;
+}
+
+.text-hero h1 {
+    font-size: 100px;
+    font-weight: 200;
+    color: white;
+}
+
+.text-hero h2 {
+    font-size: 20px;
+    padding-bottom: 75px;
+    color: lightgrey;
+}
+
+.btn{
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    text-decoration: none;
+}
+.btn:hover{
+    color: black;
+}
+
+.youtube{
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+    text-decoration: none;
+}
+.youtube:hover{
+    color: black;
+}
+
+#canvas1{
+    position: absolute;
+    top: 0;left:0;
+    width: 100%;
+    height: 100%;
+
+}
+.banner{
+    background-color: dimgrey;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.contenu-page-accueil{
+    color: #ffffff;
+    font-family: Arial,sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
+}
